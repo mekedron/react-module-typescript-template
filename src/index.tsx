@@ -12,10 +12,7 @@ export default function Template(props: TestProps) {
   return (
     <>
       This is a template for building your own typescript react modules!
-      <div className={classes.test}>
-        {children}
-      </div>
+      <div className={classes.test}>{children}</div>
     </>
   );
 }
-
