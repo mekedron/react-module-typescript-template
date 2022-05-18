@@ -4,11 +4,13 @@
 
 ## Usage
 
+Create your own module using this template and then use it in any project like this:
+
 ```tsx
 import React, { Component } from 'react'
 
-import Template from 'react-module-typescript-template'l
-import 'react-module-typescript-template/dist/index.css'
+import Template from 'react-module-typescript-template';
+import 'react-module-typescript-template/dist/index.css';
 
 class Example extends Component {
   render() {
